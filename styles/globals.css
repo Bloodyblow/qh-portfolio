@@ -3,9 +3,11 @@
   --color-blue: #0A5871;
   --color-light-blue: #50B7D8;
 }
+/*#03556eeb'*/
 
 html,
 body {
+  background-color: var(--color-dark-blue);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

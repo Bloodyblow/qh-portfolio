@@ -1,3 +1,47 @@
+div.container {
+  width: 100%;
+  height: 100%;
+}
+
+main.main {
+  background: var(--color-dark-blue);
+}
+
+/* Presentation */
+div.presentationTextContainer {
+  padding: 0rem 8rem;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+div.presentationTextContainer h1 {
+  color: white;
+  font-size: 48px;
+}
+
+div.presentationTextContainer p {
+  color: white;
+  font-size: 36px;
+  margin: 0;
+}
+
+/* About */
+article.articleAbout h2 , article.articleSkills h2 {
+  font-size: 24px;
+}
+
+article.articleAbout p, article.articleSkills p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Contact */ 
+h2.contactH2  {
+  font-size: 36px;
+  margin: 0;
+}
 
 @media (max-width: 600px) {
 
