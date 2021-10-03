@@ -1,0 +1,14 @@
+section.about {
+  background: var(--color-blue);
+  color: white;
+}
+
+section.about h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+section.about p {
+  font-size: 36px;
+  margin: 0;
+}

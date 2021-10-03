@@ -1,0 +1,14 @@
+section.contact {
+  background: var(--color-light-blue);
+  color: white;
+}
+
+section.contact h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+section.contact p {
+  font-size: 36px;
+  margin: 0;
+}
