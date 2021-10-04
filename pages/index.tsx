@@ -11,10 +11,23 @@ import Presentation from '../components/section-presentation'
 const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
+const writeAsciiMessage = () => {
+  console.log(`_|    _|            _|  _|          `)
+  console.log(`_|    _|    _|_|    _|  _|    _|_|  `)
+  console.log(`_|_|_|_|  _|_|_|_|  _|  _|  _|    _|`)
+  console.log(`_|    _|  _|        _|  _|  _|    _|`)
+  console.log(`_|    _|    _|_|_|  _|  _|    _|_|  `)
+  console.log(``)
+  console.log(`  _|      _|                                    `)
+  console.log(`_|_|_|_|  _|_|_|      _|_|    _|  _|_|    _|_|  `)
+  console.log(`  _|      _|    _|  _|_|_|_|  _|_|      _|_|_|_|`)
+  console.log(`  _|      _|    _|  _|        _|        _|      `)
+  console.log(`    _|_|  _|    _|    _|_|_|  _|          _|_|_|`)
+}
 
 const Home: NextPage = () => {
   const parallax = useRef<IParallax>(null!)
-
+  writeAsciiMessage()
   return (
     <div className={styles.container}>
       <Head>
@@ -36,7 +49,11 @@ const Home: NextPage = () => {
             }}
           />
 
-          <ParallaxLayer offset={0} speed={-0.4} factor={1} style={{paddingTop: '8rem',}}>
+          <ParallaxLayer 
+            offset={0} speed={-0.4} factor={1} 
+            style={{paddingTop: '8rem'}}
+            onClick={() => parallax.current.scrollTo(1)}
+          >
            <Presentation />
           </ParallaxLayer>
 
@@ -47,7 +64,11 @@ const Home: NextPage = () => {
           </ParallaxLayer> 
           
           {/* About */}
-          <ParallaxLayer offset={1} speed={1} style={{background: '#0A5871'}}>
+          <ParallaxLayer 
+            offset={1} speed={1} 
+            style={{background: '#0A5871'}}
+            onClick={() => parallax.current.scrollTo(2)}
+          >
             <About />
           </ParallaxLayer>
 

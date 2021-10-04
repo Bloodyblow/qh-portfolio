@@ -15,5 +15,5 @@ div.imgCthulhuContainer {
 @media (max-width: 820px) {
   div.imgCthulhuContainer {
     display: none;
-}
+  }
 }
