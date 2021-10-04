@@ -1,10 +1,9 @@
-
 section.presentation {
   cursor: pointer;
 }
 
 div.textContainer {
-  padding: 0 0 0 8rem;
+  padding: 0 0 0 18rem;
   height: 75vh;
   display: flex;
   flex-direction: column;
@@ -13,12 +12,12 @@ div.textContainer {
 
 div.textContainer h1 {
   color: white;
-  font-size: 48px;
+  font-size: 3.6rem;
 }
 
 div.textContainer p {
   color: white;
-  font-size: 36px;
+  font-size: 2.8rem;
   margin: 0;
 }
 

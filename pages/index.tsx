@@ -63,7 +63,7 @@ const Home: NextPage = () => {
             <Presentation />
           </ParallaxLayer>
 
-          <ParallaxLayer offset={0.2} speed={0.2} style={{ pointerEvents: 'none' }}>
+          <ParallaxLayer offset={0.19} speed={0.2} style={{ pointerEvents: 'none' }}>
             <div className={styles.imgCometContainer}>
               <Image src="/images/comet.png" alt="Comet" width={140} height={140} />
             </div>
@@ -159,7 +159,7 @@ const Home: NextPage = () => {
             </div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={2.85} speed={0.4} style={{ pointerEvents: 'none' }} >
+          <ParallaxLayer offset={2.75} speed={0.4} style={{ pointerEvents: 'none' }} >
             <div className={styles.imgEarthContainer}>
               <Image src="/images/earth.svg" alt="Earth" layout="fill" />
             </div>
