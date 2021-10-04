@@ -57,12 +57,18 @@ const Home: NextPage = () => {
            <Presentation />
           </ParallaxLayer>
 
-          <ParallaxLayer offset={0.2} speed={0.3} style={{ pointerEvents: 'none' }}>
-            <div className={styles.imgSateliteContainer}>
-              <Image src="/images/satelite.png" alt="Satelite" width={140} height={140} />
+          <ParallaxLayer offset={0.2} speed={0.2} style={{ pointerEvents: 'none' }}>
+            <div className={styles.imgCometContainer}>
+              <Image src="/images/comet.png" alt="Comet" width={140} height={140} />
             </div>
           </ParallaxLayer> 
           
+          <ParallaxLayer offset={0.1} speed={0.8} style={{ pointerEvents: 'none' }}>
+            <div className={styles.imgMarsContainer}>
+              <Image src="/images/mars.svg" alt="Mars" width={45} height={45} />
+            </div>
+          </ParallaxLayer> 
+
           {/* About */}
           <ParallaxLayer 
             offset={1} speed={1} 
@@ -72,48 +78,88 @@ const Home: NextPage = () => {
             <About />
           </ParallaxLayer>
 
+          <ParallaxLayer offset={1} speed={0.5} style={{ pointerEvents: 'none' }}>
+            <div className={styles.imgSateliteContainer}>
+              <Image src="/images/satelite.png" alt="Satelite" width={130} height={130} />
+            </div>
+          </ParallaxLayer> 
+
           <ParallaxLayer offset={1.5} speed={3} style={{ pointerEvents: 'none'}}>
-            <Image src="/images/spaceship.svg" alt="Spaceship" width={120} height={140} />
-          </ParallaxLayer>
-                    
-          <ParallaxLayer offset={1.6} speed={0.5} style={{ opacity: 0.1 }}>
-            <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '70%' }} />
-            <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '40%' }} />
+            <Image src="/images/spaceship.svg" alt="Spaceship" width={140} height={160} />
           </ParallaxLayer>
 
-          <ParallaxLayer offset={1.9} speed={0.8} style={{ 
-            backgroundColor: '#1d80a1a6', 
-            height: '80vh', 
-          }} />
+          <ParallaxLayer offset={1.6} speed={0.5} style={{ opacity: 0.1 }}>
+            <div style={{ display: 'block', marginLeft: '70%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={140} width={200}  />
+            </div>
+            <div style={{ display: 'block', marginLeft: '40%' }}>
+            <Image src="/images/cloud.png" alt="Cloud" height={190} width={260}  />
+            </div>
+          </ParallaxLayer>
+
+          <ParallaxLayer offset={1.9} speed={0.8} style={{ backgroundColor: '#1d80a1a6', height: '80vh' }} />
+
+          <ParallaxLayer offset={1.8} speed={0.5} style={{ opacity: 0.2 }}>
+            <div style={{ display: 'block', marginLeft: '70%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={200} width={300}  />
+            </div>
+            <div style={{ display: 'block', marginLeft: '2%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={120} width={180}  />
+            </div>
+            <div style={{ display: 'block', marginLeft: '10%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={100} width={150}  />
+            </div>
+          </ParallaxLayer>
+
+          <ParallaxLayer offset={1.95} speed={0.3} style={{ opacity: 0.1 }}>
+            <div style={{ display: 'block', marginLeft: '70%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={140} width={200}  />
+            </div>
+            <div style={{ display: 'block', marginLeft: '40%' }}>
+            <Image src="/images/cloud.png" alt="Cloud" height={190} width={260}  />
+            </div>
+          </ParallaxLayer>
 
           {/* Contact */}
           <ParallaxLayer offset={2} speed={1} style={{ background: '#50B7D8' }} />
 
-          <ParallaxLayer offset={2} speed={0.8} style={{ opacity: 0.1 }}>
-            <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '55%' }} />
-            <img src={url('cloud')} style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
+          <ParallaxLayer offset={2} speed={0.8} style={{ opacity: 0.4 }}>
+            <div style={{ display: 'block', marginLeft: '55%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={190} width={280}  />
+            </div>
+            <div style={{ display: 'block', marginLeft: '8%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={120} width={180}  />
+            </div>
+            <div style={{ display: 'block', marginLeft: '15%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={140} width={220}  />
+            </div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={2.75} speed={0.5} style={{ opacity: 0.1 }}>
-            <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '70%' }} />
-            <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '40%' }} />
+          <ParallaxLayer offset={1.95} speed={0.4} style={{ pointerEvents: 'none' }} >
+            <div className={styles.imgMoonContainer}>
+              <Image src="/images/moon.png" alt="Mars" width={70} height={70} />
+            </div> 
+          </ParallaxLayer> 
+
+          <ParallaxLayer offset={2.5} speed={0.5} style={{ opacity: 0.2 }}>
+            <div style={{ display: 'block', marginLeft: '70%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={200} width={300}  />
+            </div>
+            <div style={{ display: 'block', marginLeft: '2%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={120} width={180}  />
+            </div>
+            <div style={{ display: 'block', marginLeft: '10%' }}>
+              <Image src="/images/cloud.png" alt="Cloud" height={100} width={150}  />
+            </div>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={2} speed={0.2} style={{ opacity: 0.2 }}>
-            <img src={url('cloud')} style={{ display: 'block', width: '10%', marginLeft: '10%' }} />
-            <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '75%' }} />
-          </ParallaxLayer>
+          <ParallaxLayer offset={2.85} speed={0.4} style={{ pointerEvents: 'none' }} >
+            <div className={styles.imgEarthContainer}>
+              <Image src="/images/earth.svg" alt="Earth" layout="fill" />
+            </div>
+          </ParallaxLayer> 
 
-          <ParallaxLayer offset={2.7} speed={0.4}style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              pointerEvents: 'none',
-            }}>
-            <img src={url('earth')} style={{ width: '60%' }} />
-          </ParallaxLayer>
-
-          <ParallaxLayer offset={2.85} speed={0.2} style={{ pointerEvents: 'none' }} >
+          <ParallaxLayer offset={2.82} speed={0.2} style={{ pointerEvents: 'none' }} >
             <div className={styles.imgCthulhuContainer}>
               <Image src="/images/cthulhu.png" alt="Satelite" width={140} height={120} />
             </div>

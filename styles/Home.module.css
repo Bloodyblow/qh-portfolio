@@ -5,7 +5,27 @@ div.container {
 
 
 div.imgSateliteContainer {
+  margin-left: 85%;
+}
+
+div.imgMarsContainer {
+  margin-left: 5%;
+}
+
+div.imgCometContainer {
   margin-left: 60%;
+}
+
+div.imgMoonContainer {
+  margin-left: 15%;
+  opacity: 0.5;
+}
+
+div.imgEarthContainer {
+  padding-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }
 
 div.imgCthulhuContainer {
