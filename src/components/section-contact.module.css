@@ -7,11 +7,11 @@ section.contact {
   padding: 4rem 2rem;
 }
 
-section.contact p {
+section.contact p.description {
   width: 70%;
   text-align: center;
-  font-size: 22px;
   margin: 2rem 0;
+  font-size: 22px;
   color: var(--color-dark-green);
 }
 
@@ -39,6 +39,24 @@ section.contact p {
 .form label {
   font-size: 14px;
   margin-top: 0.4rem;
+}
+
+.form label:before {
+  content: '*';
+  color: var(--color-orange);
+  margin-right: 2px;
+}
+
+.form label:after {
+  content: ':';
+  color: white;
+  margin-left: 2px;
+}
+
+.form span.errorRequired {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-bottom: 0.6rem;
 }
 
 .form input, .form textarea {
@@ -71,6 +89,13 @@ section.contact p {
 section.contact h2 {
   font-size: 36px;
   margin: 0;
+}
+
+p.success {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--color-dark-blue);
+  font-weight: 700;
 }
 
 @media (max-width: 900px) {

@@ -27,8 +27,10 @@
       "email": "Email",
       "subject": "Sujet",
       "message": "Message",
-      "send": "Envoyer"
-    }
+      "send": "Envoyer",
+      "errorRequired": "Ce champ est obligatoire"
+    },
+    "messageSent": "Le message a été envoyé avec succès !"
   }
 
 }
