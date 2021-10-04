@@ -1,4 +1,4 @@
-/* About */
+
 section.about {
   width: 80%;
   margin-left: 110px;
@@ -8,6 +8,7 @@ section.about {
   justify-content: space-evenly;
   padding-left: 4rem;
   padding-right: 4rem;
+  cursor: pointer;
 }
 
 article.articleAbout h2 , article.articleSkills h2 {

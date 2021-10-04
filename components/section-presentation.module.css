@@ -1,6 +1,7 @@
 section.presentation {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .languagesContainer {
