@@ -1,0 +1,33 @@
+{
+  "presentation": {
+    "developer": "Developer",
+    "qaTester": "QA Tester / Automation"
+  },
+
+  "about": {
+    "about": "About",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. Pellentesque tincidunt turpis ac justo laoreet tempor.",
+    "skills": "Skills",
+    "skillsTitle": {
+      "development": "Development",
+      "qa": "QA",
+      "others": "Others"
+    },
+    "other-skill": {
+      "softwareAdmin": "Software administration",
+      "userRights": "User rightts"
+    }
+  },
+
+  "contact": {
+    "contactMe": "Contact me",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. Pellentesque tincidunt turpis ac justo laoreet tempor.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send"
+    }
+  }
+}

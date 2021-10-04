@@ -1,0 +1,29 @@
+
+section.presentation {
+  cursor: pointer;
+}
+
+div.textContainer {
+  padding: 0 0 0 8rem;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+div.textContainer h1 {
+  color: white;
+  font-size: 48px;
+}
+
+div.textContainer p {
+  color: white;
+  font-size: 36px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  div.textContainer {
+    padding: 0rem 4rem;
+  }
+}

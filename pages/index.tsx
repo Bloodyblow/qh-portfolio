@@ -4,9 +4,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React, { useRef } from 'react'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
-import About from '../components/section-about'
-import Contact from '../components/section-contact'
-import Presentation, { ChooseLanguage } from '../components/section-presentation'
+import About from '../src/components/section-about'
+import Contact from '../src/components/section-contact'
+import Presentation from '../src/components/section-presentation'
+import ChooseLanguage from '../src/components/chooseLanguage'
 
 const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`

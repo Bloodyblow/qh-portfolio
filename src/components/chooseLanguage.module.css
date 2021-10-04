@@ -1,5 +1,4 @@
 
-/* Choose language */
 .languagesContainer {
   z-index: 1;
   position: absolute;
@@ -7,6 +6,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: baseline;
   padding: 2rem 1.5rem;
   font-size: 1.2rem;
   color: white;
@@ -21,6 +21,10 @@
   transition: color 0.4s;
 }
 
+.languagesContainer button.selected {
+  color: var(--color-light-yellow);
+}
+
 .languagesContainer button:active, 
 .languagesContainer button:focus, 
 .languagesContainer button:hover  {
@@ -29,34 +33,4 @@
 
 .languagesContainer span {
   margin: 0 1rem;
-}
-
-/* Presentation */
-section.presentation {
-  cursor: pointer;
-}
-
-div.textContainer {
-  padding: 0 0 0 8rem;
-  height: 75vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-div.textContainer h1 {
-  color: white;
-  font-size: 48px;
-}
-
-div.textContainer p {
-  color: white;
-  font-size: 36px;
-  margin: 0;
-}
-
-@media (max-width: 600px) {
-  div.textContainer {
-    padding: 0rem 4rem;
-  }
 }
