@@ -20,3 +20,9 @@ div.list {
   display: flex;
   flex-wrap: wrap;
 }
+
+@media (max-width: 800px) {
+  div.category {
+    max-width: 100%;
+  }
+}

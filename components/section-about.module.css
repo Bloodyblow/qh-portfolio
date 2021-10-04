@@ -24,3 +24,17 @@ div.row {
   display: flex;
   justify-content: space-between;
 }
+
+
+@media (max-width: 800px) {
+  section.about {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0;
+  }
+  
+  div.row {
+    flex-direction: column;
+  }
+}

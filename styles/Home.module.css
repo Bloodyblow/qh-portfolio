@@ -31,5 +31,7 @@ div.imgSateliteContainer {
 }
 
 @media (max-width: 600px) {
-
+  div.presentationTextContainer {
+    padding: 0rem 4rem;
+  }
 }

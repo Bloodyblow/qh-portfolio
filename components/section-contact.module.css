@@ -71,3 +71,17 @@ section.contact h2 {
   font-size: 36px;
   margin: 0;
 }
+
+@media (max-width: 900px) {
+  .form .row {
+    flex-direction: column;
+  }
+
+  .form {
+    width: 80vw;
+  }
+
+  section.contact p {
+    width: 90%;
+  }
+}

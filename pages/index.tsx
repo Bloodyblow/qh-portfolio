@@ -86,10 +86,7 @@ const Home: NextPage = () => {
             <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '75%' }} />
           </ParallaxLayer>
 
-          <ParallaxLayer
-            offset={2.7}
-            speed={0.4}
-            style={{
+          <ParallaxLayer offset={2.7} speed={0.4}style={{
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
