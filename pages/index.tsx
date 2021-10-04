@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import React, { useRef } from 'react'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
 import About from '../components/section-about'
+import Contact from '../components/section-contact'
 
 const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
@@ -68,16 +69,7 @@ const Home: NextPage = () => {
           }} />
 
           {/* Contact */}
-          <ParallaxLayer offset={2} speed={1} style={{
-            background: '#50B7D8',
-            color: 'white',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'flex-start',
-            padding: '4rem 2rem',
-          }}>
-            <h2 className={styles.contactH2}>Contact me</h2>
-          </ParallaxLayer> 
+          <ParallaxLayer offset={2} speed={1} style={{ background: '#50B7D8' }} />
 
           <ParallaxLayer offset={2} speed={0.8} style={{ opacity: 0.1 }}>
             <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '55%' }} />
@@ -94,6 +86,21 @@ const Home: NextPage = () => {
             <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '75%' }} />
           </ParallaxLayer>
 
+          <ParallaxLayer
+            offset={2.7}
+            speed={0.4}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              pointerEvents: 'none',
+            }}>
+            <img src={url('earth')} style={{ width: '60%' }} />
+          </ParallaxLayer>
+
+          <ParallaxLayer offset={2} speed={1} >
+            <Contact />
+          </ParallaxLayer> 
 
         </Parallax>
       </main>

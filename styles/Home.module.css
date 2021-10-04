@@ -30,12 +30,6 @@ div.imgSateliteContainer {
   margin-left: 70%;
 }
 
-/* Contact */ 
-h2.contactH2  {
-  font-size: 36px;
-  margin: 0;
-}
-
 @media (max-width: 600px) {
 
 }
