@@ -6,7 +6,7 @@ import React, { useRef } from 'react'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
 import About from '../components/section-about'
 import Contact from '../components/section-contact'
-import Presentation from '../components/section-presentation'
+import Presentation, { ChooseLanguage } from '../components/section-presentation'
 
 const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
@@ -49,12 +49,13 @@ const Home: NextPage = () => {
             }}
           />
 
+          <ChooseLanguage />
+
           <ParallaxLayer 
             offset={0} speed={-0.4} factor={1} 
-            style={{paddingTop: '8rem'}}
             onClick={() => parallax.current.scrollTo(1)}
           >
-           <Presentation />
+            <Presentation />
           </ParallaxLayer>
 
           <ParallaxLayer offset={0.2} speed={0.2} style={{ pointerEvents: 'none' }}>

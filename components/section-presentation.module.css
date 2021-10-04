@@ -1,12 +1,13 @@
-section.presentation {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-}
 
+/* Choose language */
 .languagesContainer {
-  align-self: flex-end;
-  padding: 0 4rem;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 1.5rem;
   font-size: 1.2rem;
   color: white;
 }
@@ -30,9 +31,14 @@ section.presentation {
   margin: 0 1rem;
 }
 
+/* Presentation */
+section.presentation {
+  cursor: pointer;
+}
+
 div.textContainer {
-  padding: 0rem 8rem;
-  height: 55vh;
+  padding: 0 0 0 8rem;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
