@@ -30,6 +30,7 @@
       "send": "Send",
       "errorRequired": "This field is required"
     },
-    "messageSent": "The message has been sent succesfully !"
+    "messageSent": "The message has been sent succesfully !",
+    "messageError": "Error : the message has not been sent"
   }
 }

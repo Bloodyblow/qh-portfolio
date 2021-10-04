@@ -30,7 +30,8 @@
       "send": "Envoyer",
       "errorRequired": "Ce champ est obligatoire"
     },
-    "messageSent": "Le message a été envoyé avec succès !"
+    "messageSent": "Le message a été envoyé avec succès !",
+    "messageError": "Erreur : le message n'a pas été envoyé"
   }
 
 }

@@ -8,6 +8,9 @@ import About from '../src/components/section-about'
 import Contact from '../src/components/section-contact'
 import Presentation from '../src/components/section-presentation'
 import ChooseLanguage from '../src/components/chooseLanguage'
+import initFirebase from '../src/firebase/initFirebase'
+
+initFirebase()
 
 const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
@@ -42,7 +45,7 @@ const Home: NextPage = () => {
         <Parallax ref={parallax} pages={3}>
           <ParallaxLayer offset={0.4} speed={0.6} style={{ backgroundColor: '#01202a' }} />
   
-          {/* Presentation */}
+          {/* *** Presentation *** */}
           <ParallaxLayer offset={0} speed={1} factor={0.8} style={{ background: '#022A36' }} />
 
           <ParallaxLayer offset={0} speed={2} factor={3} style={{
@@ -72,7 +75,7 @@ const Home: NextPage = () => {
             </div>
           </ParallaxLayer> 
 
-          {/* About */}
+          {/* *** About *** */}
           <ParallaxLayer 
             offset={1} speed={1} 
             style={{background: '#0A5871'}}
@@ -123,7 +126,7 @@ const Home: NextPage = () => {
             </div>
           </ParallaxLayer>
 
-          {/* Contact */}
+          {/* *** Contact *** */}
           <ParallaxLayer offset={2} speed={1} style={{ background: '#50B7D8' }} />
 
           <ParallaxLayer offset={2} speed={0.8} style={{ opacity: 0.4 }}>
