@@ -95,6 +95,12 @@ const Home: NextPage = () => {
             <img src={url('earth')} style={{ width: '60%' }} />
           </ParallaxLayer>
 
+          <ParallaxLayer offset={2.85} speed={0.2} style={{ pointerEvents: 'none' }} >
+            <div className={styles.imgCthulhuContainer}>
+              <Image src="/images/cthulhu.png" alt="Satelite" width={140} height={120} />
+            </div>
+          </ParallaxLayer> 
+
           <ParallaxLayer offset={2} speed={1} >
             <Contact />
           </ParallaxLayer> 

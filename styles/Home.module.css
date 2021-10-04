@@ -30,8 +30,18 @@ div.imgSateliteContainer {
   margin-left: 70%;
 }
 
+div.imgCthulhuContainer {
+  margin-left: 30%;
+}
+
 @media (max-width: 600px) {
   div.presentationTextContainer {
     padding: 0rem 4rem;
   }
+}
+  
+@media (max-width: 820px) {
+  div.imgCthulhuContainer {
+    display: none;
+}
 }
