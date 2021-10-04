@@ -29,6 +29,7 @@ const writeAsciiMessage = () => {
 const Home: NextPage = () => {
   const parallax = useRef<IParallax>(null!)
   writeAsciiMessage()
+
   return (
     <div className={styles.container}>
       <Head>

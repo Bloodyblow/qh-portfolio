@@ -1,7 +1,10 @@
 import styles from './section-about.module.css'
 import Skills from './skills'
+import { useTranslation } from 'react-i18next'
 
 export default function About() {
+  const { t } = useTranslation()
+
   const devSkills = [
     'Javascript (ES5+)', 'React', 'React Native', 'SQL', 
     'HTML5', 'CSS3', 'Mocha', 'Chai', 
@@ -12,27 +15,23 @@ export default function About() {
     'Redmine', 'Postman', 'OCS-NG', 'GLPI', 'Jira'
   ]
   const otherSkills = [
-    'Administration de logiciels', 'Droits des utilisateurs',
+    t('about.other-skill.softwareAdmin'), t('about.other-skill.userRights'),
     'VirtualBox', 'Vmware', 'Hyper-V'
   ]
 
   return (
     <section className={styles.about}>
       <article className={styles.articleAbout}>
-        <h2>About</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna 
-          vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. 
-          Pellentesque tincidunt turpis ac justo laoreet tempor.
-        </p>
+        <h2>{t('about.about')}</h2>
+        <p>{t('about.description')}</p>
       </article>
 
       <article className={styles.articleSkills}>
-        <h2>Skills</h2>
+        <h2>{t('about.skills')}</h2>
         <div className={styles.row}>
-          <Skills title="Development" skills={devSkills} />
-          <Skills title="QA" skills={testSkils} />
-          <Skills title="Autres" skills={otherSkills} />
+          <Skills title={t('about.skillsTitle.development')} skills={devSkills} />
+          <Skills title={t('about.skillsTitle.qa')} skills={testSkils} />
+          <Skills title={t('about.skillsTitle.others')} skills={otherSkills} />
         </div>
       </article>
   </section>
