@@ -1,0 +1,22 @@
+/* Skill */
+p.skill {
+  background: var(--color-dark-blue);
+  padding: 0.2rem 1rem;
+  margin: 0.5rem 0.4rem 0.5rem 0;
+  border-radius: 2px;
+}
+
+/* Skills */
+div.category {
+  max-width: 30%;
+}
+
+div.category h3 {
+  font-size: 18px;
+  margin: 0.5rem 0;
+}
+
+div.list {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,26 @@
+/* About */
+section.about {
+  width: 80%;
+  margin-left: 110px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+article.articleAbout h2 , article.articleSkills h2 {
+  font-size: 24px;
+  color: var(--color-light-yellow);
+}
+
+article.articleAbout p {
+  font-size: 18px;
+  margin: 0;
+}
+
+div.row {
+  display: flex;
+  justify-content: space-between;
+}

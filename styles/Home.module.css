@@ -29,25 +29,6 @@ div.presentationTextContainer p {
 div.imgSateliteContainer {
   margin-left: 70%;
 }
-/* About */
-section.about {
-  margin-left: 110px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-article.articleAbout h2 , article.articleSkills h2 {
-  font-size: 24px;
-}
-
-article.articleAbout p, article.articleSkills p {
-  font-size: 18px;
-  margin: 0;
-}
 
 /* Contact */ 
 h2.contactH2  {

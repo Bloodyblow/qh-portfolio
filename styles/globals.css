@@ -2,8 +2,11 @@
   --color-dark-blue: #022A36;
   --color-blue: #0A5871;
   --color-light-blue: #50B7D8;
+  --color-light-orange: #f8ccb9;
+  --color-orange: #f88352;
+  --color-yellow: #ffda44;
+  --color-light-yellow: #e0cc7b;
 }
-/*#03556eeb'*/
 
 html,
 body {

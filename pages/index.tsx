@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React, { useRef } from 'react'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
+import About from '../components/section-about'
 
 const url = (name: string, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
@@ -48,37 +49,14 @@ const Home: NextPage = () => {
           </ParallaxLayer> 
           
           {/* About */}
-          <ParallaxLayer offset={1} speed={1} style={{
-              background: '#0A5871',
-              
-          }}>
-            <section className={styles.about}>
-              <article className={styles.articleAbout}>
-                <h2>About</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna 
-                  vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. 
-                  Pellentesque tincidunt turpis ac justo laoreet tempor.
-                </p>
-              </article>
-              <article className={styles.articleSkills}>
-                <h2>Skills</h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna 
-                  vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. 
-                  Pellentesque tincidunt turpis ac justo laoreet tempor.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna 
-                  vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. 
-                  Pellentesque tincidunt turpis ac justo laoreet tempor.
-                </p>
-              </article>
-            </section>
+          <ParallaxLayer offset={1} speed={1} style={{background: '#0A5871'}}>
+            <About />
           </ParallaxLayer>
 
           <ParallaxLayer offset={1.5} speed={3} style={{ pointerEvents: 'none'}}>
             <Image src="/images/spaceship.svg" alt="Spaceship" width={120} height={140} />
           </ParallaxLayer>
-          
+                    
           <ParallaxLayer offset={1.6} speed={0.5} style={{ opacity: 0.1 }}>
             <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '70%' }} />
             <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '40%' }} />
