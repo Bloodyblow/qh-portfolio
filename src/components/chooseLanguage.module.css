@@ -1,9 +1,39 @@
 
-.languagesContainer {
+.container {
   z-index: 1;
   position: absolute;
   top: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.links {
+  padding: auto;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.links a {
+  margin-right: 1rem;
+  background-color: transparent; 
+  border-radius: 40px;
+  padding: 0.8rem;
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+.links a.linkedin:hover,
+.links a.linkedin:focus,
+.links a.linkedin:active{
+  background-color: #0a66c2; 
+  box-shadow: 1px 1px 17px 8px #0a66c2;
+}
+
+.languages {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
@@ -12,7 +42,7 @@
   color: white;
 }
 
-.languagesContainer button {
+.languages button {
   background: none;
   border: none;
   cursor: pointer;
@@ -21,29 +51,38 @@
   transition: color 0.4s;
 }
 
-.languagesContainer button.selected {
+.languages button.selected {
   color: var(--color-light-yellow);
 }
 
-.languagesContainer button:active, 
-.languagesContainer button:focus, 
-.languagesContainer button:hover  {
+.languages button:active, 
+.languages button:focus, 
+.languages button:hover  {
   color: var(--color-light-yellow);
 }
 
-.languagesContainer span {
+.languages span {
   margin: 0 1rem;
   font-size: 1.4rem;
 }
 
 @media (max-width: 600px) {
-  .languagesContainer button {
+  .languages button {
     font-size: 0.9rem;
   }
-  .languagesContainer {
+  .languages {
     padding: 3rem 1rem;
   }
-  .languagesContainer span {
+  .languages span {
     font-size: 0.9rem;
+  }
+  
+  .container {
+    display: flex;
+    padding: 0 0.5rem;
+    align-items: center;
+  }
+  .links a img {
+    width: 20px;
   }
 }

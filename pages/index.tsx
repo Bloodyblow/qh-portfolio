@@ -69,7 +69,7 @@ const Home: NextPage = () => {
             </div>
           </ParallaxLayer> 
           
-          <ParallaxLayer offset={0.1} speed={0.8} style={{ pointerEvents: 'none' }}>
+          <ParallaxLayer offset={0.15} speed={0.8} style={{ pointerEvents: 'none' }}>
             <div className={styles.imgMarsContainer}>
               <Image src="/images/mars.svg" alt="Mars" width={45} height={45} />
             </div>
