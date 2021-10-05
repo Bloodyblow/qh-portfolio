@@ -33,4 +33,17 @@
 
 .languagesContainer span {
   margin: 0 1rem;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 600px) {
+  .languagesContainer button {
+    font-size: 0.9rem;
+  }
+  .languagesContainer {
+    padding: 3rem 1rem;
+  }
+  .languagesContainer span {
+    font-size: 0.9rem;
+  }
 }

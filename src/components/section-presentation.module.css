@@ -23,6 +23,12 @@ div.textContainer p {
 
 @media (max-width: 600px) {
   div.textContainer {
-    padding: 0rem 4rem;
+    padding: 1rem 2rem 0 2rem;
+  }
+  div.textContainer h1 {
+    font-size: 2.8rem;
+  }
+  div.textContainer p {
+    font-size: 1.8rem;
   }
 }

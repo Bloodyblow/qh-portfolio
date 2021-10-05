@@ -91,7 +91,9 @@ const Home: NextPage = () => {
           </ParallaxLayer> 
 
           <ParallaxLayer offset={1.5} speed={3} style={{ pointerEvents: 'none'}}>
-            <Image src="/images/spaceship.svg" alt="Spaceship" width={140} height={160} />
+            <div className={styles.imgSpaceshipContainer}>
+              <Image src="/images/spaceship.svg" alt="Spaceship" width={140} height={160} />
+            </div>
           </ParallaxLayer>
 
           <ParallaxLayer offset={1.6} speed={0.5} style={{ opacity: 0.1 }}>

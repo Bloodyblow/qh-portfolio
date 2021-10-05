@@ -26,3 +26,15 @@ div.list {
     max-width: 100%;
   }
 }
+
+@media (max-width: 600px) {
+  p.skill {
+    padding: 0.2rem 0.2rem;
+    margin: 0.2rem 0.4rem 0.2rem 0;
+    font-size: 0.7rem;
+  }
+  div.category h3 {
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+  }
+}

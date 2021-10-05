@@ -109,12 +109,53 @@ p.messageError {
   .form .row {
     flex-direction: column;
   }
-
   .form {
     width: 80vw;
   }
-
   section.contact p {
     width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  section.contact {
+    padding: 0.4rem;
+    justify-content: space-evenly;
+  }
+  section.contact h2 {
+    font-size: 1.6rem;
+    margin: 0.4rem
+  }
+  section.contact p.description {
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+  .form {
+    padding: 0.4rem;
+    margin: 0;
+    width: 90vw;
+  }
+  .form label {
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+  }
+  .form input, .form textarea {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.8rem;
+    margin: 0.4rem 0rem;
+  }
+  .form span.errorRequired {
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+  }
+  .form button[type='submit'] {
+    margin: 0.5rem 0;
+    padding: 0.3rem 0;
+    font-size: 0.8rem;
+  } 
+  p.messageSuccess, p.messageError {
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
   }
 }
