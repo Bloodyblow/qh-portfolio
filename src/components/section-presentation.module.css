@@ -15,9 +15,15 @@ div.textContainer h1 {
   font-size: 3.6rem;
 }
 
-div.textContainer p {
+div.textContainer p.jobs {
   color: white;
   font-size: 2.8rem;
+  margin: 0;
+}
+
+div.textContainer p.freelance {
+  color: var(--color-light-blue);
+  font-size: 2.2rem;
   margin: 0;
 }
 
@@ -28,7 +34,10 @@ div.textContainer p {
   div.textContainer h1 {
     font-size: 2.8rem;
   }
-  div.textContainer p {
+  div.textContainer p.jobs {
     font-size: 1.8rem;
+  }
+  div.textContainer p.freelance {
+    font-size: 1.5rem;
   }
 }

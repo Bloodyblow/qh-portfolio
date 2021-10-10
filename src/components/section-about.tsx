@@ -7,7 +7,7 @@ export default function About() {
 
   const devSkills = [
     'Javascript (ES5+)', 'React', 'React Native', 'SQL', 
-    'HTML5', 'CSS3', 'Mocha', 'Chai', 
+    'HTML5', 'CSS3', 'Mocha', 'Chai', 'Next.js',
     'Webpack', 'Yarn', 'Node.js', 'Git',
   ]
   const testSkils = [

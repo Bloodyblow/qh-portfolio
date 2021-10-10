@@ -1,12 +1,13 @@
 {
   "presentation": {
     "developer": "Développeur",
-    "qaTester": "Testeur QA / Automatisation"
+    "qaTester": "Testeur QA / Automatisation",
+    "freelance": "Freelance"
   },
 
   "about": {
     "about": "À propos",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. Pellentesque tincidunt turpis ac justo laoreet tempor.",
+    "description": "Je suis un passionné de technologies basé dans le sud de la France. J'ai commencé comme testeur fonctionnel, puis testeur automaticien et maintenant développeur freelance. Autodidacte, j'ai eu la chance de travailler dans des domaines variés comme la défense et le handicap. J'aime créer et apporter des solutions à des problèmes complexes.  Proactif, j'aime essayer de nouvelles choses et varier les technologies.",
     "skills": "Compétences",
     "skillsTitle": {
       "development": "Développement",
@@ -21,7 +22,7 @@
 
   "contact": {
     "contactMe": "Contactez-moi",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. Pellentesque tincidunt turpis ac justo laoreet tempor.",
+    "description":"Vous pouvez me contacter de préférence pour des opportunités en freelance. Pour toute autre question, n'hésitez pas.",
     "form": {
       "name": "Nom",
       "email": "Email",

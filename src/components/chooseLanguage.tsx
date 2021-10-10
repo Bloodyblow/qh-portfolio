@@ -25,19 +25,19 @@ export default function ChooseLanguage() {
   return (
     <div className={styles.container}>
       <div className={styles.links}>
-          <a 
-            href="https://www.linkedin.com/in/quentin-hoog-007b2a193/" 
-            target="_blank"
-            rel="noreferrer noopener "
-            className={styles.linkedin}
-          >
-            <Image 
-              src="/images/linkedin.png" 
-              width={30} 
-              height={30} 
-              alt="Linkedin" 
-            />
-          </a>
+        <a 
+          href="https://www.linkedin.com/in/quentin-hoog-007b2a193/" 
+          target="_blank"
+          rel="noreferrer noopener "
+          className={styles.linkedin}
+        >
+          <Image 
+            src="/images/linkedin.png" 
+            width={30} 
+            height={30} 
+            alt="Linkedin" 
+          />
+        </a>
       </div>
 
       <div className={styles.languages}>

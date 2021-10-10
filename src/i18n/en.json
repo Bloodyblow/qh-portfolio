@@ -1,12 +1,13 @@
 {
   "presentation": {
     "developer": "Developer",
-    "qaTester": "QA Tester / Automation"
+    "qaTester": "QA Tester / Automation",
+    "freelance": "Freelance"
   },
 
   "about": {
     "about": "About",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. Pellentesque tincidunt turpis ac justo laoreet tempor.",
+    "description": "I am a technologies enthousiast living in the south of France. I started as a functionnal tester, then automated tester and now I am a freelance web developer. Self-taught, I had the chance to work in various sectors such as military and handicap. I love fixing issues and problem solving. Proactive, I love trying new things and vary technologies.",
     "skills": "Skills",
     "skillsTitle": {
       "development": "Development",
@@ -21,7 +22,7 @@
 
   "contact": {
     "contactMe": "Contact me",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel magna vel nisl imperdiet dapibus. Vestibulum feugiat bibendum vulputate. Pellentesque tincidunt turpis ac justo laoreet tempor.",
+    "description":"You can contact me for freelance opportunities. Other questions, don’t hesitate.",
     "form": {
       "name": "Name",
       "email": "Email",
