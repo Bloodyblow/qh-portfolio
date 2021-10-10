@@ -5,6 +5,7 @@ section.contact {
   justify-content: flex-start;
   align-items: center;
   padding: 4rem 2rem;
+  overflow-y: scroll;
 }
 
 section.contact p.description {
