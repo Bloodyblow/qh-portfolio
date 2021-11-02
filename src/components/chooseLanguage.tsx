@@ -26,6 +26,19 @@ export default function ChooseLanguage() {
     <div className={styles.container}>
       <div className={styles.links}>
         <a 
+          href="https://github.com/Bloodyblow" 
+          target="_blank"
+          rel="noreferrer noopener "
+          className={styles.github}
+        >
+          <Image 
+            src="/images/github.png" 
+            width={30} 
+            height={30} 
+            alt="Github" 
+          />
+        </a>
+        <a 
           href="https://www.linkedin.com/in/quentin-hoog-007b2a193/" 
           target="_blank"
           rel="noreferrer noopener "
@@ -42,14 +55,14 @@ export default function ChooseLanguage() {
 
       <div className={styles.languages}>
         <button 
-          className={lang === Language.EN ? styles.selected : ''}
+          className={lang === Language.EN ? styles.selected : ''}
           onClick={() => changeLanguage(Language.EN)}
           >
           English
         </button> 
         <span>|</span>
         <button 
-          className={lang === Language.FR ? styles.selected : ''}
+          className={lang === Language.FR ? styles.selected : ''}
           onClick={() => changeLanguage(Language.FR)}
           >
           Français
