@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Language } from '../i18n/i18n'
 import Image from 'next/image'
+import { staticImageLoader } from '../../pages/index'
 
 export default function ChooseLanguage() {
   const { i18n } = useTranslation();
@@ -32,6 +33,7 @@ export default function ChooseLanguage() {
           className={styles.github}
         >
           <Image 
+            loader={staticImageLoader}
             src="/images/github.png" 
             width={30} 
             height={30} 
@@ -45,6 +47,7 @@ export default function ChooseLanguage() {
           className={styles.linkedin}
         >
           <Image 
+            loader={staticImageLoader}
             src="/images/linkedin.png" 
             width={30} 
             height={30} 
