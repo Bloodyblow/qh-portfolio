@@ -37,7 +37,9 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Quentin Hoog</title>
-        <meta name="description" content="Development, QA" />
+        <meta name="description" content="Quentin Hoog, freelance developer and QA tester" />
+        <meta name="keywords" content="React, Selenium, tests, development, HTML, CSS, JavaScript, QA, freelance" />
+        <meta name="author" content="Quentin Hoog" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
