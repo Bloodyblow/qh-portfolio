@@ -50,7 +50,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Parallax ref={parallax} pages={3}>
+        <Parallax ref={parallax} pages={3.2}>
           <ParallaxLayer offset={0.4} speed={0.6} style={{ backgroundColor: '#01202a' }} />
   
           {/* *** Presentation *** */}
@@ -157,6 +157,8 @@ const Home: NextPage = () => {
             </div> 
           </ParallaxLayer> 
 
+          <ParallaxLayer offset={2.7} speed={1} style={{ background: '#50B7D8' }} /> 
+
           <ParallaxLayer offset={2.5} speed={0.5} style={{ opacity: 0.2 }}>
             <div style={{ display: 'block', marginLeft: '70%' }}>
               <Image loader={staticImageLoader} src="/images/cloud.png" alt="Cloud" height={200} width={300}  />
@@ -183,7 +185,7 @@ const Home: NextPage = () => {
 
           <ParallaxLayer offset={2} speed={1} >
             <Contact />
-          </ParallaxLayer> 
+          </ParallaxLayer>
 
         </Parallax>
       </main>

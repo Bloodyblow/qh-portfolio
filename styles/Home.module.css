@@ -36,7 +36,7 @@ div.imgCthulhuContainer {
   
 @media (max-width: 750px) {
   div.imgCthulhuContainer {
-    display: none;
+    margin-left: 40%;
   }
 }
 
