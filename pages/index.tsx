@@ -177,7 +177,7 @@ const Home: NextPage = () => {
             </div>
           </ParallaxLayer> 
 
-          <ParallaxLayer offset={2.92} speed={0.2} style={{ pointerEvents: 'none' }} >
+          <ParallaxLayer offset={2.98} speed={0.2} style={{ pointerEvents: 'none' }} >
             <div className={styles.imgCthulhuContainer}>
               <Image loader={staticImageLoader} src="/images/cthulhu.png" alt="Satelite" width={140} height={120} />
             </div>
