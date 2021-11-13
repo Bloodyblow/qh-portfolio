@@ -8,6 +8,10 @@ section.contact {
   overflow-y: scroll;
 }
 
+section.contact h2 {
+  color: #022a36;
+}
+
 section.contact p.description {
   width: 70%;
   text-align: center;
