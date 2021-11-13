@@ -38,27 +38,27 @@ export default function Contact(){
       <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
         <div className={styles.row}>
           <div className={styles.inputRow}>
-            <label>{t('contact.form.name')}</label>
-            <input {...register("name", { required: true })} />
+            <label htmlFor="name">{t('contact.form.name')}</label>
+            <input id="name" {...register("name", { required: true })} />
             { errors.name && <ErrorRequire />}
           </div>
           
           <div className={styles.inputRow}>
-            <label>{t('contact.form.email')}</label>
-            <input type="email" {...register("email", { required: true })} />
+            <label htmlFor="email">{t('contact.form.email')}</label>
+            <input id="email" type="email" {...register("email", { required: true })} />
             { errors.email && <ErrorRequire />}
           </div>
         </div>
 
         <div className={styles.inputRow}>
-          <label>{t('contact.form.subject')}</label>
-          <input {...register("subject", { required: true })} />
+          <label htmlFor="subject">{t('contact.form.subject')}</label>
+          <input id="subject" {...register("subject", { required: true })} />
           { errors.subject && <ErrorRequire />}
         </div>
         
         <div className={styles.inputRow}>
-          <label>{t('contact.form.message')}</label>
-          <textarea {...register("message", { required: true })} rows={6} />
+          <label htmlFor="message">{t('contact.form.message')}</label>
+          <textarea id="message" {...register("message", { required: true })} rows={6} />
           { errors.message && <ErrorRequire />}
         </div>
 
