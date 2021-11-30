@@ -42,11 +42,11 @@ div.textContainer p.freelance {
   }
 }
 
-@media (min-height: 0px) and (max-height: 700px) {
+@media (min-height: 0px) and (max-height: 550px)    {
   div.textContainer h1 {
     font-size: 2rem;
   }
-  
+
   div.textContainer p.jobs, div.textContainer p.freelance {
     font-size: 1.5rem;
   }
