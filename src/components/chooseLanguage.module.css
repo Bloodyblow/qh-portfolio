@@ -19,11 +19,12 @@
 }
 
 .links a {
-  margin-right: 1rem;
+  margin-right: 2rem;
   background-color: transparent; 
   border-radius: 40px;
-  padding: 0.8rem;
+  padding: 0.8rem 1rem;
   transition: background-color 0.4s, box-shadow 0.4s;
+  transition: all 0.3s ease-in-out 0s
 }
 
 .links a.linkedin:hover,
@@ -31,6 +32,13 @@
 .links a.linkedin:active{
   background-color: #0a66c2; 
   box-shadow: 1px 1px 17px 8px #0a66c2;
+}
+
+.links a.malt:hover,
+.links a.malt:focus,
+.links a.malt:active{
+  background-color: #ff4967;  
+  box-shadow: 1px -4px 13px 11px #ff4967;
 }
 
 .links a.github:hover,

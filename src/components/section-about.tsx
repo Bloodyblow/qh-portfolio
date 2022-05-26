@@ -6,17 +6,22 @@ export default function About() {
   const { t } = useTranslation()
 
   const devSkills = [
-    'Javascript (ES5+)', 'React', 'React Native', 'SQL', 
-    'HTML5', 'CSS3', 'Mocha', 'Chai', 'Next.js',
+    'JavaScript (ES5+)', 'TypeScript', 'React', 'React Native', 'SQL', 
+    'Redux', 'HTML5', 'CSS3', 'Mocha', 'Chai', 'Next.js', 'Angular',
     'Webpack', 'Yarn', 'Node.js', 'Git',
   ]
-  const testSkils = [
-    'Squash', 'Selenium', 'Katalon', 'Polarion', 'TestLink', 
-    'Redmine', 'Postman', 'OCS-NG', 'GLPI', 'Jira'
+  const testSkills = [
+    t('about.test-skill.automation'), 'Squash', 'Selenium', 'Katalon',
+    'Polarion', 'TestLink', 'Redmine', 'Postman', 'OCS-NG', 'GLPI', 
+    'Jira'
   ]
   const otherSkills = [
     t('about.other-skill.softwareAdmin'), t('about.other-skill.userRights'),
     'VirtualBox', 'Vmware', 'Hyper-V'
+  ]
+  const devopsSkills = [
+    'Monorepo', 'CI/CD', 'Docker', 'Kubernetes', 'Gitlab', 'Jenkins',
+    'Prometheus'
   ]
 
   return (
@@ -30,7 +35,10 @@ export default function About() {
         <h2>{t('about.skills')}</h2>
         <div className={styles.row}>
           <Skills title={t('about.skillsTitle.development')} skills={devSkills} />
-          <Skills title={t('about.skillsTitle.qa')} skills={testSkils} />
+          <Skills title={t('about.skillsTitle.devops')} skills={devopsSkills} />
+        </div>
+        <div className={styles.row}>
+          <Skills title={t('about.skillsTitle.qa')} skills={testSkills} />
           <Skills title={t('about.skillsTitle.others')} skills={otherSkills} />
         </div>
       </article>

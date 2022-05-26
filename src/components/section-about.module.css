@@ -19,7 +19,7 @@ article.articleAbout h2 , article.articleSkills h2 {
 article.articleAbout p {
   font-size: 1.2rem;
   line-height: 2.2rem;
-  margin: 0;
+  margin: 1rem 0 2rem 0;
 }
 
 div.row {
@@ -27,6 +27,9 @@ div.row {
   justify-content: space-between;
 }
 
+article.articleSkills {
+  flex-grow: 2;
+}
 
 @media (max-width: 800px) {
   section.about {

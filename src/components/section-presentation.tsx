@@ -10,7 +10,6 @@ export default function Presentation(){
       <div className={styles.textContainer}>
         <h1>Quentin HOOG</h1>
         <p className={styles.jobs}>{t('presentation.developer')}</p>
-        <p className={styles.jobs}>{t('presentation.qaTester')}</p>
         <p className={styles.freelance}>{t('presentation.freelance')}</p>
       </div>
     </section>

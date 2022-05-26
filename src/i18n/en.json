@@ -1,7 +1,6 @@
 {
   "presentation": {
-    "developer": "Developer",
-    "qaTester": "QA Tester / Automation",
+    "developer": "Full Stack Developer",
     "freelance": "Freelance"
   },
 
@@ -12,7 +11,11 @@
     "skillsTitle": {
       "development": "Development",
       "qa": "QA",
-      "others": "Others"
+      "others": "Others",
+      "devops": "DevOps"
+    },
+    "test-skill": {
+      "automation": "Automation"
     },
     "other-skill": {
       "softwareAdmin": "Software administration",

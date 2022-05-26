@@ -41,6 +41,20 @@ export default function ChooseLanguage() {
           />
         </a>
         <a 
+          href="https://www.malt.fr/profile/quentinhoog" 
+          target="_blank"
+          rel="noreferrer noopener "
+          className={styles.malt}
+        >
+          <Image 
+            loader={staticImageLoader}
+            src="/images/malt.png" 
+            width={30} 
+            height={30} 
+            alt="Malt" 
+          />
+        </a>
+        <a 
           href="https://www.linkedin.com/in/quentin-hoog-007b2a193/" 
           target="_blank"
           rel="noreferrer noopener "
