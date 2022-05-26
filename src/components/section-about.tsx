@@ -33,13 +33,15 @@ export default function About() {
 
       <article className={styles.articleSkills}>
         <h2>{t('about.skills')}</h2>
-        <div className={styles.row}>
-          <Skills title={t('about.skillsTitle.development')} skills={devSkills} />
-          <Skills title={t('about.skillsTitle.devops')} skills={devopsSkills} />
-        </div>
-        <div className={styles.row}>
-          <Skills title={t('about.skillsTitle.qa')} skills={testSkills} />
-          <Skills title={t('about.skillsTitle.others')} skills={otherSkills} />
+        <div className={styles.container}>
+          <div className={styles.row}>
+            <Skills title={t('about.skillsTitle.development')} skills={devSkills} />
+            <Skills title={t('about.skillsTitle.devops')} skills={devopsSkills} />
+          </div>
+          <div className={styles.row}>
+            <Skills title={t('about.skillsTitle.qa')} skills={testSkills} />
+            <Skills title={t('about.skillsTitle.others')} skills={otherSkills} />
+          </div>
         </div>
       </article>
   </section>
