@@ -7,7 +7,7 @@ import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
 import About from '../src/components/section-about'
 import Contact from '../src/components/section-contact'
 import Presentation from '../src/components/section-presentation'
-import ChooseLanguage from '../src/components/chooseLanguage'
+import Header from '../src/components/header'
 import initFirebase from '../src/firebase/initFirebase'
 import { ImageLoaderProps } from 'next/image'
 
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
             }}
           />
 
-          <ChooseLanguage />
+          <Header />
 
           <ParallaxLayer 
             offset={0} speed={-0.4} factor={1} 
